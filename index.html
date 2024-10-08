@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Page</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header class="header">
+        <nav>
+            <div class="menu-icon">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <ul class="menu">
+                <li class="close-menu">&times;</li> <!-- Botón para cerrar el menú -->
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#services">Servicios</a></li>
+                <li><a href="#gallery">Galería</a></li>
+                <li><a href="#testimonials">Testimonios</a></li>
+                <li><a href="#footer">Contacto</a></li>
+            </ul>
+        </nav>
+        <img id="logo-header" src="logo_placeholder.png" alt="Logo" class="logo">
+    </header>
+    <div class="container">
+        <!-- Hero Section -->
+        <section class="content-section" id="inicio">
+            <div class="content-wrapper">
+                <div class="text-content">
+                    <h1 id="main-title">Título de la Sección</h1>
+                    <p id="main-paragraph">Este es un breve párrafo que describe el contenido de esta sección. Aquí
+                        puedes añadir información relevante que complemente el contenido visual a la izquierda.</p>
+                        <a id="button-1" href="#" class="button">Empieza Ahora</a>
+                    </div>
+                <div class="media">
+                    <img id="main-image" alt="Media">
+                </div>
+            </div>
+        </section>
+        <!-- Gallery Section -->
+        <div class="gallery-section" id="gallery">
+            <div class="gallery-wrapper">
+                <div class="media">
+                    <img src="image-placeholder.jpg" alt="Media" id="pexels-media-image">
+                </div>
+
+                <div class="gallery-thumbnails">
+                    <button class="up-arrow">▲</button>
+                    <div class="thumbnails-wrapper">
+                        <img src="thumb1.jpg" alt="Thumbnail 1" class="thumbnail active" id="pexels-thumb1">
+                        <img src="thumb2.jpg" alt="Thumbnail 2" class="thumbnail" id="pexels-thumb2">
+                        <img src="thumb3.jpg" alt="Thumbnail 3" class="thumbnail" id="pexels-thumb3">
+                        <img src="thumb4.jpg" alt="Thumbnail 4" class="thumbnail" id="pexels-thumb4">
+                        <img src="thumb5.jpg" alt="Thumbnail 5" class="thumbnail" id="pexels-thumb5">
+                    </div>
+                    <button class="down-arrow">▼</button>
+                </div>
+            </div>
+        </div>
+        <div class="video-3">
+            <a id="button-3" href="#" class="button">Empieza Ahora</a>
+
+        </div>
+
+
+        <!-- Business Model Section -->
+        <section id="services" class="services-section">
+            <h2 id="titulo-principal">Nuestros Servicios</h2>
+            <h3 id="company-name-placeholder">En [Nombre de tu Empresa], te ayudamos a navegar y prosperar en el
+                creciente mundo. Ofrecemos un conjunto integral de servicios diseñados para maximizar tu inversión:</h3>
+            <div class="services-container">
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fa fa-lightbulb-o"></i>
+                    </div>
+                    <h3 id="titulo-1">Consultoría en <span id="business-model-placeholder">Activos Digitales</span></h3>
+                    <p id="subtitulo-1">Asesoramiento personalizado para identificar las mejores oportunidades de
+                        inversión en <span id="business-model-placeholder">activos digitales</span>.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fa fa-cogs"></i>
+                    </div>
+                    <h3 id="titulo-2">Gestión de Portafolios Digitales</h3>
+                    <p id="subtitulo-2">Construcción y gestión activa de portafolios diversificados que optimizan la
+                        rentabilidad y minimizan riesgos.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fa fa-code"></i>
+                    </div>
+                    <h3 id="titulo-3">Educación Financiera Digital</h3>
+                    <p id="subtitulo-3">Cursos y talleres que te capacitan en el manejo efectivo de <span
+                            id="business-model-placeholder">activos digitales</span>, desde criptomonedas hasta NFTs.
+                    </p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fa fa-robot"></i>
+                    </div>
+                    <h3 id="titulo-4">Trading Automatizado</h3>
+                    <p id="subtitulo-4">Plataformas de trading con algoritmos avanzados que operan 24/7 para maximizar
+                        tus ganancias en el mercado digital.</p>
+                </div>
+            </div>
+            <a id="button-2" href="#" class="button  cta-button">Conoce Más</a>
+        </section>
+
+
+        <div class="testimonials-section" id="testimonials">
+            <div class="featured-testimonial">
+                <div class="testimonial-content">
+                    <div class="testimonial-image"></div> <!-- Aquí se asigna la imagen de fondo desde JS -->
+                    <div class="testimonial-text">
+                        <h3 id="testimonial-title">Título del Testimonio</h3>
+                        <p id="testimonial-description">"Este es un testimonio destacado. Aquí va el texto principal del
+                            testimonio. Es más largo y detallado que los otros."</p>
+                        <div class="testimonial-rating">
+                            ★★★★★
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-controls">
+                    <button class="prev">◀</button>
+                    <button class="next">▶</button>
+                </div>
+            </div>
+
+            <div class="testimonials-carousel">
+                <div class="small-testimonial active">
+                    <div class="testimonial-image-1"></div> <!-- Aquí se asigna la imagen de fondo desde JS -->
+                    <div class="small-testimonial-text">
+                        <p id="testimonial-1">[Testimonio 1]</p>
+                        <div class="testimonial-rating">★★★★★</div>
+                    </div>
+                </div>
+                <div class="small-testimonial">
+                    <div class="testimonial-image-2"></div> <!-- Aquí se asigna la imagen de fondo desde JS -->
+                    <div class="small-testimonial-text">
+                        <p id="testimonial-2">[Testimonio 2]</p>
+                        <div class="testimonial-rating">★★★★★</div>
+                    </div>
+                </div>
+                <div class="small-testimonial">
+                    <div class="testimonial-image-3"></div> <!-- Aquí se asigna la imagen de fondo desde JS -->
+                    <div class="small-testimonial-text">
+                        <p id="testimonial-3">[Testimonio 3]</p>
+                        <div class="testimonial-rating">★★★★★</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <!-- Footer Section -->
+    <footer id="footer">
+        <div class="footer-links">
+            <a href="#">Política de Privacidad</a>
+            <a href="#">Términos de Servicio</a>
+            <a href="#">Contacto</a>
+        </div>
+        <div class="social-icons">
+            <a href="#"><img src="./face.png" alt="Facebook"></a>
+            <a href="#"><img src="../x-logo-white.png" alt="Twitter"></a>
+            <a href="#"><img src="../icons8-instagram-100.png" alt="Instagram"></a>
+        </div>
+
+        <div class="footer-logo">
+            <img id="logo-footer" src="footer_logo_placeholder.png" alt="Logo Footer">
+        </div>
+    </footer>
+    <!-- Incluye jQuery antes del archivo JS personalizado -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="main.js"></script>
+    <script>
+        
+    </script>
+</body>
+
+</html>
